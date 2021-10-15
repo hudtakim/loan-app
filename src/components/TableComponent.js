@@ -50,12 +50,12 @@ const TableComponent = (props) => {
         formatter: (rowContent, row) => {
             return (
                 <div>
-                    <Link to={"loan-app/detail/" + row.id}>
+                    <Link to={"detail/" + row.id}>
                         <Button color="primary" className="btn btn-sm mr-2">
                             <FontAwesomeIcon icon={faInfo} /> Detail
                         </Button>
                     </Link>
-                    <Link to={"loan-app/edit/" + row.id}>
+                    <Link to={"edit/" + row.id}>
                         <Button color="success" className="btn btn-sm mr-2">
                             <FontAwesomeIcon icon={faEdit} /> Edit
                         </Button>
