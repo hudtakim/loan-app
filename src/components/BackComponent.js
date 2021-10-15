@@ -8,7 +8,7 @@ export const BackComponent = () => {
     return (
         <Row>
             <Col>
-                <Link to="/loan-app">
+                <Link to="/">
                     <Button color="primary" className="btn btn-sm mb-3">
                         <FontAwesomeIcon icon={faArrowLeft} /> Back
                     </Button>

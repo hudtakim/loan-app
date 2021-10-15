@@ -14,8 +14,8 @@ export default class App extends Component {
       <div>
         <NavbarComponent />
         <JumbotronComponent />
-        <BrowserRouter>
-          <Route path="/loan-app" exact component={HomeContainer} />
+        <BrowserRouter basename={'/loan-app'}>
+          <Route path="/" exact component={HomeContainer} />
           <Route path="/create" exact component={CreateUserContainer} />
           <Route path="/edit/:id" exact component={EditUserContainer} />
           <Route path="/detail/:id" exact component={DetailUserContainer} />
