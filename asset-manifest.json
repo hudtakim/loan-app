@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/loan-app/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/loan-app/static/js/main.ad137f23.chunk.js",
-    "main.js.map": "/loan-app/static/js/main.ad137f23.chunk.js.map",
+    "main.js": "/loan-app/static/js/main.b8f6c4dc.chunk.js",
+    "main.js.map": "/loan-app/static/js/main.b8f6c4dc.chunk.js.map",
     "runtime-main.js": "/loan-app/static/js/runtime-main.cf854b05.js",
     "runtime-main.js.map": "/loan-app/static/js/runtime-main.cf854b05.js.map",
     "static/css/2.4a255bf9.chunk.css": "/loan-app/static/css/2.4a255bf9.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4a255bf9.chunk.css",
     "static/js/2.aebe91f2.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.ad137f23.chunk.js"
+    "static/js/main.b8f6c4dc.chunk.js"
   ]
 }
