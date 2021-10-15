@@ -26,12 +26,12 @@ const NavbarComponent = (props) => {
   return (
       <Navbar color="light" light expand="md">
           <Container>
-          <NavbarBrand href="/">{props.title}</NavbarBrand>
+          <NavbarBrand href="/loan-app">{props.title}</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
                 <NavItem>
-                    <NavLink href="/">HomeRun</NavLink>
+                    <NavLink href="/loan-app">HomeR</NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink href="https://github.com/hudtakim/loan-app" target="_blank">GitHub</NavLink>
