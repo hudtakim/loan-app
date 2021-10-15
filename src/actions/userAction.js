@@ -85,7 +85,7 @@ export const createUserHandler = (formObj) => {
             'success'
         ).then((result) => {
             if (result.value) {
-                window.location.replace("http://localhost:3000/");
+                window.location.replace(process.env.PUBLIC_URL);
             }
           });
         //setMovieList([...movieReviewList, {movieName: movieName, movieReview: review}]);
@@ -132,7 +132,7 @@ export const editUserHandler = (formObj) => {
             'success'
         ).then((result) => {
             if (result.value) {
-                window.location.replace("http://localhost:3000/");
+                window.location.replace(process.env.PUBLIC_URL);
             }
           });
         return (dispatch) => {
